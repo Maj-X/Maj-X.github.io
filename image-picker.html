@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="web/components/bootstrap/dist/css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="web/components/image-picker/css/image-picker.css" type="text/css" />
+	</head>
+	<body>
+		<div class="container" >
+			<h1>Image Picker</h1>
+			<p>
+				Image Picker is a simple jQuery plugin that transforms a select element into a more user friendly graphical interface. 
+			</p>
+			<iframe src="https://ghbtns.com/github-btn.html?user=Maj-X&repo=image-picker&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
+			<h2>Examples</h2>
+
+			<h3>Basic</h3>
+
+			<div class="row" >
+				<div class="col-xs-6 col-md-6 col-xl-6" style="text-align:center" >
+					<select class="image-picker-1" >
+						<option data-img-src="http://lorempixel.com/350/200/?11" >1</option>
+						<option data-img-src="http://lorempixel.com/300/300/?12" >2</option>
+						<option data-img-src="http://lorempixel.com/400/200/?13" >3</option>
+						<option data-img-src="http://lorempixel.com/300/200/?14" >4</option>
+						<option data-img-src="http://lorempixel.com/300/200/?15" >5</option>
+						<option data-img-src="http://lorempixel.com/300/200/?16" >6</option>
+						<option data-img-src="http://lorempixel.com/300/200/?17" >7</option>
+					</select>
+				</div>
+				<div class="col-xs-6 col-md-6 col-xl-6" >
+					<pre>$('.image-picker-1').imagePicker();</pre>
+				</div>
+			</div>
+
+			<h3>With options</h3>
+
+			<div class="row" >
+				<div class="col-xs-6 col-md-6 col-xl-6" style="text-align:center" >
+					<select class="image-picker-2" >
+						<option data-img-src="http://lorempixel.com/350/200/?21" >1</option>
+						<option data-img-src="http://lorempixel.com/300/300/?22" >2</option>
+						<option data-img-src="http://lorempixel.com/400/200/?23" >3</option>
+						<option data-img-src="http://lorempixel.com/300/200/?24" >4</option>
+						<option data-img-src="http://lorempixel.com/300/200/?25" >5</option>
+						<option data-img-src="http://lorempixel.com/300/200/?26" >6</option>
+						<option data-img-src="http://lorempixel.com/300/200/?27" >7</option>
+					</select>
+				</div>
+				<div class="col-xs-6 col-md-6 col-xl-6" >
+<pre>
+$('.image-picker-2').imagePicker({
+	selectorHeight: 200,
+	selectorWidth: 900,
+	imageMaxHeight: 200,
+	imageMaxWidth: 1000
+});
+</pre>
+				</div>
+			</div>
+
+		</div>
+		<script src="web/components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="web/components/bootstrap/dist/js/bootstrap.js" ></script>
+		<script type="text/javascript" src="web/components/image-picker/js/image-picker.js" ></script>
+		<script type="text/javascript" >
+			$('.image-picker-1').imagePicker();
+			$('.image-picker-2').imagePicker({
+				selectorHeight: 200,
+				selectorWidth: 900,
+				imageMaxHeight: 200,
+				imageMaxWidth: 1000
+			});
+		</script>
+	</body>
+</html>

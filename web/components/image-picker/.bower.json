@@ -1,0 +1,15 @@
+{
+  "name": "image-picker",
+  "homepage": "https://github.com/Maj-X/image-picker",
+  "version": "0.1.1",
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.1",
+    "commit": "6d8fcfff2d48d909a5db6306978a8db16a1a38a0"
+  },
+  "_source": "https://github.com/Maj-X/image-picker.git",
+  "_target": "~0.1.1",
+  "_originalSource": "https://github.com/Maj-X/image-picker.git",
+  "_direct": true
+}
