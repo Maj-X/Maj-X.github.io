@@ -1,6 +1,6 @@
 {
   "name": "Maj-X.github.io",
-  "version": "0.2.2",
+  "version": "0.1.1",
   "homepage": "http://maj-x.github.io/image-picker",
   "authors": [
     "ajouve ajouveuk@gmail.com"
@@ -16,14 +16,5 @@
   ],
   "dependencies": {
     "jquery": ">= 1.9.1"
-  },
-  "_release": "0.2.2",
-  "_resolution": {
-    "type": "version",
-    "tag": "0.2.2",
-    "commit": "e941ead2430c543f5ea3f8f1cf352132f7fa3dfd"
-  },
-  "_source": "https://github.com/Maj-X/image-picker.git",
-  "_target": "~0.2.2",
-  "_originalSource": "https://github.com/Maj-X/image-picker.git"
+  }
 }
