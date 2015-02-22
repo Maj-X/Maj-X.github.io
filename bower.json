@@ -17,6 +17,6 @@
   "dependencies": {
     "jquery": "~2.1.3",
     "bootstrap": "~3.3.2",
-    "Maj-X.github.io": "https://github.com/Maj-X/image-picker.git#~0.2.1"
+    "Maj-X.github.io": "https://github.com/Maj-X/image-picker.git#~0.2.2"
   }
 }
